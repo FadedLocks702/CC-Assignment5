@@ -7,13 +7,12 @@ $("#submit-btn").click(changeBackground);
 
 function changeBackground(evt){
 	evt.preventDefault();
-	var city = $('#city-type').val();
+	var f = $('#city-type').val();
 	alert(f);
 
-	if (city == "NYC", "New York", "New York City", "nyc", "new york", "new york city"){
+	if (f == "NYC"){
 		$("body").attr("class","nyc");
 	}
-	
 }
 
 
