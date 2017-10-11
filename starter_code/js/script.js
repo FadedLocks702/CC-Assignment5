@@ -17,6 +17,18 @@ function changeBackground(evt){
 	else if (f == "SF"){
 		$("body").attr("class","sf");
 	}
+
+	else if (f == "LA"){
+		$("body").attr("class","la");
+	}
+
+	else if (f == "Austin"){
+		$("body").attr("class","austin");
+	}
+
+	else if (f == "Sydney"){
+		$("body").attr("class","sydney");
+	}
 }
 
 
