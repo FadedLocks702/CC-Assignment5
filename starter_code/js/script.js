@@ -12,6 +12,10 @@ function changeBackground(evt){
 
 	if (f == "NYC"){
 		$("body").attr("class","nyc");
+	} 
+
+	else if (f == "SF"){
+		$("body").attr("class","sf");
 	}
 }
 
